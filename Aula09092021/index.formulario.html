@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Continuando no HTML</title>
+        <style>
+            table, td {
+                border: solid 1px blue;
+                font-size: 18px;
+            }
+        </style>
+    </head>
+<body>
+    Compras
+    <h1>Botão de Teste</h1>
+    <button onclick="hello()">Clique aqui!</button>
+    <h1>Cartela de Bingo</h1>
+    <table>
+        <tr>
+            <td>B</td>
+            <td>I</td>
+            <td>N</td>
+            <td>G</td>
+            <td>O</td>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+    </table>
+
+
+    <h1>Tabela de Compras</h1>
+    <div style="background-color: salmon; width: 200px; height: 200px;">
+    <h1>Lista de Presentes</h1>
+    <ul>
+        <li>Presente 1</li>
+        <li>Presente 2</li>
+        <li>Presente 3</li>
+    </div>
+    <div style="background-color: sandybrown; width: 100px; height: 100px;">
+    <p>Mais uma divisória</p>
+    </div>
+
+    <h1>Dados do Cliente</h1>
+    <table>
+        <tr>
+        <td>Nome</td>
+        <td>Email</td>
+        <td>Aniversário</td>
+        </tr>
+        <tr>
+            <td>Denise Mocellin</td>
+            <td>drmocellin52@hotmaill.com</td>
+            <td>18/07</td>
+            </tr>
+
+        <tr>
+            <td>Kelly Silva</td>
+            <td>kellyssurf@gmail.com</td>
+            <td>13/07</td>
+        </tr>
+    </table>
+    <h1>Formulários</h1>
+    <form>
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome">
+        <br>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" name="email">
+        <br>
+        <br>
+        <label for="data">Data de Aniversário:</label>
+        <input type="date" name="data">
+        <br>
+        <br>
+        <label for="naturalidade">Naturalidade:</label>
+        <select name="naturalidade">
+            <option value="porto alegre">Porto Alegre</option>
+            <option value="rio de janeiro">Rio de Janeiro</option>
+            <option value="florianopolis">Florianópolis</option>
+        </select>
+        <br>
+        <br>
+        <label for="endereco">Endereço:</label>
+        <input type="endereco" name="endereco">
+        <br>
+        <br>
+        <input type="submit" value="Enviar Dados">
+    </form>
+</body>
+<script>
+    function hello(){
+        alert("Olá pessoal!");
+}
+</script>
+</html>
