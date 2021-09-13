@@ -1,10 +1,13 @@
-header {
-    text-align: center;
+body {
+    margin: 0px;
 }
 
-body{
+header{
+    display: flex;
     width: 100%;
-    height: 150px;
+    height: 300px;
+    background-image: url("imagens/dev.jpg");
+    align-items: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: blueviolet;
     text-align: center;
@@ -12,23 +15,49 @@ body{
 
 img {
     width: 200px;
-    margin-right: 500px;
-    border-radius: 80px;
+    margin-right: 400px;
+    border-radius: 70px;
     border-style: solid;
+    background-size: cover;
+    text-align: center;
+    align-content: center;
 }
 
 h1 {
-    color: white;
+    color: rgb(red, green, blue);
+    font-family: Arial, Helvetica, sans-serif;
     position: relative;
+    top: 40px;
     margin: auto;
-    text-align: center;
 }
 
 #menu {
     text-align: center;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -50px;
+    width: 100%;
+    height: 30px;
+    text-transform: uppercase;
+    background-color: aqua;
+}
+
+#menu ul {
+    list-style: none;
+}
+
+#menu ul li{
+    display: inline;
+    margin: 5px;
+}
+
+#menu ul li {
+    color: white;
+    text-decoration: none;
 }
 
 main {
+    background-color: blue;
     text-align: center;
 }
 
