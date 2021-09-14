@@ -1,15 +1,14 @@
 body {
     margin: 0px;
+    background-color: blueviolet;
 }
 
 header{
     display: flex;
     width: 100%;
     height: 300px;
-    background-image: url("imagens/dev.jpg");
-    align-items: center;
+    background-image: url("imagens/developer.png");
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: blueviolet;
     text-align: center;
 }
 
@@ -26,6 +25,7 @@ img {
 h1 {
     color: rgb(red, green, blue);
     font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
     position: relative;
     top: 40px;
     margin: auto;
@@ -44,6 +44,9 @@ h1 {
 
 #menu ul {
     list-style: none;
+    font-weight: bold;
+    margin: 10px;
+    padding: 5px;
 }
 
 #menu ul li{
@@ -57,13 +60,14 @@ h1 {
 }
 
 main {
-    background-color: blue;
     text-align: center;
 }
 
-#contato {
+.contato {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-
 }
 
 footer {
@@ -71,9 +75,7 @@ footer {
     padding: auto;
     margin-top: 150px;
     font-size: 15px;
-    color: white;
-    position: absolute;
-    display: inline-block;
+    color: black;
+    position: relative;
     font-weight: normal;
-
 }
